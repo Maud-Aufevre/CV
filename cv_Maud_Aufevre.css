@@ -1,0 +1,227 @@
+@font-face {
+    src: url('fonts/Walkway Bold.ttf');
+    font-family: 'WB';
+}
+@font-face {
+    src: url('fonts/Walkway Expand.ttf');
+    font-family: 'WE';
+}
+@font-face {
+    src: url('fonts/Walkway SemiBold.ttf');
+    font-family: 'WSB';
+}
+@font-face {
+    src: url('fonts/Walkway Condensed SemiBold.ttf');
+    font-family: 'WUSB';
+}
+
+/* header */
+
+header {
+    min-height: 100vh;
+    background-image: url('fond.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    flex: auto;
+    color: palevioletred;
+    text-shadow: 2px 2px 5px rgb(1, 37, 37);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    font-family: WB;
+}
+
+h2 {
+    flex: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-family: WE;
+}
+
+h3 {
+    font-family: WB;
+}
+
+#photo>img {
+    margin: 0;
+    width: 300px; 
+}
+
+#photo {
+    margin: 0;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bouton {
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 190px;
+    background-color: rgba(255,255,255,0.55);
+    border-radius: 100px;
+    margin: auto 60px;
+    color: rgb(3, 66, 66);
+    font-family: WB;
+    text-align: center;
+    font-size: 1.65em;
+    box-shadow: 2px 2px 15px lightyellow;
+}
+
+.bouton:hover {
+    background-color: rgb(138, 24, 49);
+    color: white;
+    box-shadow: none;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+/* body */
+
+#pro {
+    background-color: oldlace;
+    margin: 0;
+    padding: 30px;
+}
+#contact {
+    min-height: 100vh;
+    background-image: url('fond.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infos {
+    margin-bottom: 260px;
+}
+#infos p {
+    color: white;
+    font-size: 1.8em;
+}
+
+
+
+.haut {
+    color: rgb(3, 66, 66);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#haut {
+    color: white;
+    margin-bottom: 60px;
+}
+
+section {
+    text-align: center;
+    margin: 0;
+}
+
+.titreSec {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: rgb(3, 66, 66);
+    border-radius: 10px 10px;
+    text-align: center;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.h3 {
+    color: palevioletred;
+    font-family: WB;
+}
+
+.stickerL {
+    background-image: url('etiquette-gauche.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: right;
+    margin-right: 8px;
+    padding: 50px 25px;
+    color: oldlace;
+    font-family: WUSB;
+    font-size: 1.4em;
+}
+
+.stickerR {
+    background-image: url('etiquette-droite.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: left;
+    margin-left: 8px;
+    padding: 50px 25px;
+    color: oldlace;
+    font-family: WUSB;
+    font-size: 1.4em;
+}
+
+.txtR {
+    text-align: left;
+    border-left: 1px solid black;
+    padding-left: 30px;
+}
+
+.txtL {
+    text-align: right;
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+
+.fil {
+
+    width: 50%;  /* la moitié du <div="corps" */
+    /* float;  Flotera à gauche */
+    float: ;
+    margin-top: 3%; /* ou 15% */
+    border-right: 1px solid #030303;
+}
