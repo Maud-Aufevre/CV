@@ -225,3 +225,176 @@ h3 {
     margin-top: 3%; /* ou 15% */
     border-right: 1px solid #030303;
 }
+
+
+
+
+/*  format moyen */
+
+@media screen and (max-width: 1150px){
+    #photo>img {
+        margin: 0;
+        width: 220px; 
+    }
+
+    h1 {  
+        font-size: 3.5em;
+    }
+    
+    h2 {
+        font-size: 2.2em;
+    }
+
+    
+
+    .bouton {
+        width: 130px;
+        height: 130px;
+        border-radius: 65px;
+        margin: 50px 40px;
+        font-size: 1.4em;
+    }
+
+    #infos {
+        margin-top: 100px;
+    }
+    #infos p {
+        color: white;
+        font-size: 1.4em;
+    }
+}
+
+
+/*  format petit */
+
+@media screen and (max-width: 840px){
+    #photo>img {
+        margin: 0;
+        width: 180px; 
+    }
+
+    h1 {  
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+
+    
+
+    .bouton {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin: 50px 25px;
+        font-size: 1.1em;
+    }
+
+
+    #infos {
+        margin-top: 100px;
+    }
+    #infos p {
+        color: white;
+        font-size: 1.4em;
+    }
+}
+
+/*  format très petit */
+
+@media screen and (max-width: 590px){
+    #photo>img {
+        margin: 0;
+        width: 125px; 
+    }
+
+    h1 {  
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+
+    
+
+    .bouton {
+        flex:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        height: 30px;
+        background-color: rgba(255,255,255,0.55);
+        border-radius: 10px;
+        margin: 10px auto;
+        font-size: 1.3em;
+        box-shadow: 2px 2px 8px lightyellow;
+    }
+
+    .bouton>i {
+        display: none;
+    }
+
+    #menu {
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #infos {
+        margin-top: 100px;
+    }
+    #infos p {
+        color: white;
+        font-size: 1em;
+    }
+
+    .h3 {
+        font-size: 1.3em;
+    }
+    
+    .stickerL {
+        background-image: url('etiquette-gaucheP.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        text-align: right;
+        margin-right: 8px;
+        padding: 50px 25px;
+        color: oldlace;
+        font-family: WUSB;
+        font-size: 1em;
+    }
+    
+    .stickerR {
+        background-image: url('etiquette-droiteP.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        text-align: left;
+        margin-left: 8px;
+        padding: 50px 25px;
+        color: oldlace;
+        font-family: WUSB;
+        font-size: 1em;
+        
+    }
+    
+    .txtR {
+        text-align: left;
+        border-left: 1px solid black;
+        padding-left: 30px;
+        font-size: 0.85em;
+    }
+    
+    .txtL {
+        text-align: right;
+        border-right: 1px solid black;
+        padding-right: 30px;
+        font-size: 0.85em;
+    }
+
+}
